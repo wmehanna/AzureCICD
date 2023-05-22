@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Container version='2'>
+    <Name>AzureCICD</Name>
+    <Repository><acrName>/<imageName>:latest</Repository>
+    <Registry>https://hub.docker.com</Registry>
+    <Network>bridge</Network>
+    <Privileged>false</Privileged>
+    <Support>http://mysupportsite.com</Support>
+    <!-- Add as many ports, environment variables, and volumes as you need -->
+    <TemplateURL>https://mytemplatesite.com/my-template.xml</TemplateURL>
+</Container>
